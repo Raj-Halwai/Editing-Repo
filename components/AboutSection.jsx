@@ -48,12 +48,12 @@ export default function AboutSection() {
           transition={{ duration: 0.5 }}
         >
           <Image
-            src={profilePic}
-            alt="Raj Halwai Profile"
-            layout="fill"
-            objectFit="cover"
-            className="rounded-full"
-          />
+  src="/images/raj-halwai-profile.jpg"
+  alt="Raj Halwai Profile"
+  fill
+  className="object-cover rounded-full"
+/>
+
         </motion.div>
 
         {/* Bio */}
